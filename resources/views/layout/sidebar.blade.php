@@ -69,7 +69,7 @@
                     <li><a href="{{ url('doc/bipartite/bigraph') }}" class="link-dark d-inline-flex text-decoration-none rounded">Bigraph</a></li>
                     <li><a href="{{ url('doc/bipartite/pipeline') }}" class="link-dark d-inline-flex text-decoration-none rounded">Pipeline</a></li>
                     <li><a href="{{ url('doc/bipartite/usage') }}" class="link-dark d-inline-flex text-decoration-none rounded">Usage</a></li>
-{{--                    <li><a href="{{ url('doc/bipartite/cli') }}" class="link-dark d-inline-flex text-decoration-none rounded">Command line interface</a></li>--}}
+                    {{--                    <li><a href="{{ url('doc/bipartite/cli') }}" class="link-dark d-inline-flex text-decoration-none rounded">Command line interface</a></li>--}}
                 </ul>
             </div>
         </li>
@@ -83,7 +83,7 @@
                     <li><a href="{{ url('doc/unipartite/unigraph') }}" class="link-dark d-inline-flex text-decoration-none rounded">Unigraph</a></li>
                     <li><a href="{{ url('doc/unipartite/pipeline') }}" class="link-dark d-inline-flex text-decoration-none rounded">Pipeline</a></li>
                     <li><a href="{{ url('doc/unipartite/usage') }}" class="link-dark d-inline-flex text-decoration-none rounded">Usage</a></li>
-{{--                    <li><a href="{{ url('doc/unipartite/cli') }}" class="link-dark d-inline-flex text-decoration-none rounded">Command line interface</a></li>--}}
+                    {{--                    <li><a href="{{ url('doc/unipartite/cli') }}" class="link-dark d-inline-flex text-decoration-none rounded">Command line interface</a></li>--}}
                 </ul>
             </div>
         </li>
@@ -97,7 +97,7 @@
                     <li><a href="{{ url('doc/cumulative/intro') }}" class="link-dark d-inline-flex text-decoration-none rounded">Introduction</a></li>
                     <li><a href="{{ url('doc/cumulative/pipeline') }}" class="link-dark d-inline-flex text-decoration-none rounded">Pipeline</a></li>
                     <li><a href="{{ url('doc/cumulative/usage') }}" class="link-dark d-inline-flex text-decoration-none rounded">Usage</a></li>
-{{--                    <li><a href="{{ url('doc/cumulative/cli') }}" class="link-dark d-inline-flex text-decoration-none rounded">Command line interface</a></li>--}}
+                    {{--                    <li><a href="{{ url('doc/cumulative/cli') }}" class="link-dark d-inline-flex text-decoration-none rounded">Command line interface</a></li>--}}
                 </ul>
             </div>
         </li>
@@ -136,7 +136,7 @@
             </button>
             <div class="collapse show" id="collation-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="{{ url('doc/mapping/pdb2uniprot') }}" class="link-dark d-inline-flex text-decoration-none rounded">PDB to UniProt</a></li>
+                    <li><a href="{{ url('doc/mapping/pdb2uniprot') }}" class="link-dark d-inline-flex text-decoration-none rounded">pdb to UniProt</a></li>
                 </ul>
             </div>
         </li>
@@ -227,7 +227,8 @@
                 </ul>
             </div>
         </li>
+
     </ul>
 </div>
 
-<div class="b-example-divider b-example-vr"></div>
+{{--<div class="b-example-divider b-example-vr"></div>--}}

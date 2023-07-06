@@ -228,8 +228,6 @@ class WebsiteController extends Controller
         return view('doc/rrc/evaluate');
     }
 
-
-
     public function bi_bigraph()
     {
         return view('doc/bipartite/bigraph');
@@ -300,9 +298,6 @@ class WebsiteController extends Controller
     {
         return view('doc/cumulative/cli');
     }
-
-
-
 
     public function changelog()
     {

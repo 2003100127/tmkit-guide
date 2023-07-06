@@ -19,7 +19,7 @@
                             <i class="fa-solid fa-tags"></i>
                             <strong>TMKit</strong> provides a function to convert between a
                             PDB ID to an UniProt accession code. This tutorial shows how to
-                            do the conversion.
+
                         </div>
 
                         {{-- section: example dataset reminder --}}
