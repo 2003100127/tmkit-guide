@@ -96,6 +96,8 @@
 lower_ids, upper_ids = tmk.topo.from_tmhmm(
     topo='tmh',
     tmhmm_fpn='./data/topo/1xqfA.tmhmm',
+    from_fasta=False,
+    file_kind='Linux',
 )
 print('---lower bounds', lower_ids)
 print('---upper bounds', upper_ids)</code></pre>
