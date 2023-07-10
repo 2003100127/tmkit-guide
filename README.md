@@ -3,7 +3,7 @@
     
 </h1>
 <h1 align="center" >
-TMKit manual
+TMKit guide
 </h1>
 
 ![](https://img.shields.io/badge/tmkit-release-519dd9.svg)

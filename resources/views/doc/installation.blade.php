@@ -52,6 +52,9 @@
                             We highly recommend installing TMKit in a conda environment with a specific Python
                             version built. This allows you to manage other packages via both PyPI and Conda
                             after then. To achieve this purpose, it needs a couple of procedures below.
+                            We recommend using <strong>TMKit</strong> version <span class="badge text-bg-warning">
+                                <strong>0.0.3</strong>
+                            </span>.
                         </div>
                         <pre><code class="language-python"># create a conda environment
 conda create --name tmkit python=3.11.4
@@ -63,8 +66,8 @@ conda create --name tmkit python=3.11.4
 # activate the conda environment
 conda activate tmkit
 
-# do the following command
-pip install tmkitx --upgrade</code></pre>
+# do the following command, stable versions: 0.0.2 and 0.0.3 (recommended)
+pip install tmkit==0.0.3</code></pre>
                     </div>
 
                     <div id="item-1-2">
@@ -141,7 +144,7 @@ python setup.py install</code></pre>
                                 an official instruction</a> on their cooperation. Then, you can explore with TMKit.
 
                         </div>
-                        <pre><code class="language-python">docker run 2003100127/tmkit &lt;tmkit commands&gt;</code></pre>
+                        <pre><code class="language-python">docker pull 2003100127/tmkit</code></pre>
                     </div>
                 </div>
             </div>

@@ -18,7 +18,7 @@
                         <div class="alert alert-success" role="alert">
                             To get started with <strong>TMKit</strong>, an example dataset is required to be downloaded
                             beforehand. We release this dataset on
-                            <a href="https://sandbox.zenodo.org/record/1217796" target="_blank" class="stretched-link text-danger" style="position: relative;">
+                            <a href="https://sandbox.zenodo.org/record/1219139" target="_blank" class="stretched-link text-danger" style="position: relative;">
                                 Sandbox Zenodo</a>. After downloading this dataset and placing it properly,
                             you should be walked through all cases presented in this tutorial.
 
@@ -30,14 +30,20 @@
                         <div class="alert alert-secondary" role="alert">
                             If you would like to save the data file in the current folder, please put
                             <code>'./data.zip'</code> on <code>sv_fpn</code>.
-                            <a href="https://sandbox.zenodo.org/record/1217796/files/data.zip?download=1" target="_blank" class="stretched-link text-danger" style="position: relative;">
+                            <a href="https://sandbox.zenodo.org/record/1219139/files/data.zip?download=1" target="_blank" class="stretched-link text-danger" style="position: relative;">
                                 The dataset URL</a>
                             to the data has been fixed. You can do it all as illustrated below.
                         </div>
                         <pre><code class="language-python">import tmkit as tmk
 
+# if you use tmkit version 0.0.3
 tmk.fetch.tmkit_data(
-    url='https://sandbox.zenodo.org/record/1217796/files/data.zip?download=1',
+    sv_fpn='./data.zip'
+)
+
+# if you still use tmkit version 0.0.2
+tmk.fetch.tmkit_data(
+    url='https://sandbox.zenodo.org/record/1219139/files/data.zip?download=1',
     sv_fpn='./data.zip'
 )</code></pre>
 

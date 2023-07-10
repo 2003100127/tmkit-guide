@@ -38,7 +38,7 @@
         </div>
         <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
 {{--            <img class="rounded-lg-3" src="{{ URL::asset('img/poster.png') }}" alt="" width="1020">--}}
-            <img src="{{ URL::asset('img/all.png') }}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="1000"
+            <img src="{{ URL::asset('img/tmkit_vs.png') }}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="1000"
                  height="800" loading="lazy">
         </div>
     </div>
