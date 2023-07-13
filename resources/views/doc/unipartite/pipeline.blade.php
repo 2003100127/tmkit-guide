@@ -90,7 +90,7 @@ VGFAEGVTMGHQLLVQLESIAITIVWSGVVAFIGYKLADLTVGLRVP</code></pre>
 pos_list = pl(
     seq_sep_superior=None,
     seq_sep_inferior=0
-).topair(
+).to_pair(
     length=len(sequence)
 )
 print(pos_list[:10])
