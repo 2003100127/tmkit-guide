@@ -74,7 +74,7 @@
                             <br>
                             <br>
                             In <strong>TMKit</strong>, we use the function below to generate an
-                            unigraph of one residue of a residue pair of interest.
+                            bigraph of one residue of a residue pair of interest.
 
                         </div>
                         <div class="alert alert-secondary" role="alert">
