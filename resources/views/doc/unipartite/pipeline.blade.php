@@ -114,7 +114,7 @@ print(pos_list[:10])
                             the next 3 elements. The last element is the placeholder for
                             a feature.
                         </div>
-                        <pre><code class="language-python">from tmkit.seqnetrr.combo.Position import position as pfasta
+                        <pre><code class="language-python">from tmkit.seqnetrr.combo.Position import Position as pfasta
 
 position = pfasta(
     sequence=sequence,
@@ -146,9 +146,9 @@ print(position[:10])
                             <i class="fa-solid fa-file-pen"></i>
                             A window with size 5 is placed to extract neighbouring residues of each of central residues.
                         </div>
-                        <pre><code class="language-python">from tmkit.seqnetrr.window.Pair import pair
+                        <pre><code class="language-python">from tmkit.seqnetrr.window.Pair import Pair
 
-window_m_ids = pair(
+window_m_ids = Pair(
     sequence=sequence,
     position=position,
     window_size=5,
@@ -183,7 +183,7 @@ print(window_m_ids[:10])
                             <i class="fa-solid fa-file-pen"></i>
                             The code below can construct LocRRCs and assigns features to residue pairs of interest.
                         </div>
-                        <pre><code class="language-python">from tmkit.seqnetrr.graph.Unipartite import unipartite as unigraph
+                        <pre><code class="language-python">from tmkit.seqnetrr.graph.Unipartite import Unipartite as unigraph
 
 res = unigraph(
     sequence=sequence,
@@ -231,7 +231,7 @@ res = unigraph(
                             parameter <code>fpn</code>. It will be like this.
 
                         </div>
-                        <pre><code class="language-python">from tmkit.seqnetrr.graph.Unipartite import unipartite as unigraph
+                        <pre><code class="language-python">from tmkit.seqnetrr.graph.Unipartite import Unipartite as unigraph
 
 res = unigraph(
     sequence=sequence,

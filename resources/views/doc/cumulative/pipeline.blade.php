@@ -111,7 +111,7 @@ print(pos_list[:10])
                             and the placeholder for <code>PDB position</code>.
                             The last element is the placeholder for a feature.
                         </div>
-                        <pre><code class="language-python">from tmkit.seqnetrr.combo.Position import position as pfasta
+                        <pre><code class="language-python">from tmkit.seqnetrr.combo.Position import Position as pfasta
 
 position = pfasta(
     sequence=sequence,
@@ -143,9 +143,9 @@ print(position[:10])
                             <i class="fa-solid fa-file-pen"></i>
                             A window with size 5 is placed to extract neighbouring residues of each of central residues.
                         </div>
-                        <pre><code class="language-python">from tmkit.seqnetrr.window.Single import single
+                        <pre><code class="language-python">from tmkit.seqnetrr.window.Single import Single
 
-window_m_ids = single(
+window_m_ids = Single(
     sequence=sequence,
     position=position,
     window_size=3,
@@ -175,9 +175,9 @@ print(window_m_ids[:10])
                             <i class="fa-solid fa-file-pen"></i>
                             The code below can Generate cumuCCs for residues of interest.
                         </div>
-                        <pre><code class="language-python">from tmkit.seqnetrr.graph.Cumulative import cumulative
+                        <pre><code class="language-python">from tmkit.seqnetrr.graph.Cumulative import Cumulative
 
-res = cumulative(
+res = Cumulative(
     sequence=sequence,
     window_size=5,
     window_m_ids=window_m_ids,
@@ -229,9 +229,9 @@ print(res)
                             parameter <code>fpn</code>. It will be like this.
 
                         </div>
-                        <pre><code class="language-python">from tmkit.seqnetrr.graph.Cumulative import cumulative
+                        <pre><code class="language-python">from tmkit.seqnetrr.graph.Cumulative import Cumulative
 
-res = cumulative(
+res = Cumulative(
     sequence=sequence,
     window_size=5,
     window_m_ids=window_m_ids,
