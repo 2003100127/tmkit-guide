@@ -17,17 +17,17 @@
             <h1 class="display-4 fw-bold lh-1">TMKit</h1>
             <p class="lead">
                 <i class="fa-brands fa-battle-net"></i>
-                <strong>TMKit</strong> an open-source, modular, and scalable Python programming interface that
-                possesses currently nine modules for processing transmembrane protein data.
+                <strong>TMKit</strong> is an open-source, modular, and scalable Python programming interface that
+                possesses currently <strong>nine</strong> modules for processing transmembrane protein data.
                 <br><br><i class="fa-brands fa-battle-net"></i>
-                <strong>TMKit</strong> offers quality control, I/O and collation of protein sequences/structures,
-                sequence-predicted/structure-derived topologies, multiple sequence alignment generation,
-                generation of canonical TM-specific features, visualization of protein structures and interfaces between
-                TM proteins. Besides, other intriguing features of TMKit are the processing of functional (CATH),
-                interactome, and mutational databases and more functionalities expected. It allows performance evaluation
-                of residue-residue contact predictions.
+                <strong>TMKit</strong> offers quality control, I/O and collation of sequences/structures,
+                extraction of sequence-predicted/structure-derived topologies,
+                generation of multiple sequence alignment and canonical TM protein-specific features,
+                and visualization of protein structures and interfaces between TM proteins. Besides,
+                an intriguing feature of TMKit is the processing of functional (CATH),
+                interactome, and mutational databases, and more functionalities would be expected.
                 <br><br><i class="fa-brands fa-battle-net"></i>
-                <strong>TMKit</strong> devotes itself to making TM protein-related research much easier
+                <strong>TMKit</strong> devotes itself to making computational analysis of TM proteins easier
                 and will accelerate the development and machine learning modelling of TM proteins.
 
             </p>

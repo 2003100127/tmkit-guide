@@ -18,8 +18,8 @@
                         <div class="alert alert-success" role="alert">
                             To get started with <strong>TMKit</strong>, an example dataset is required to be downloaded
                             beforehand. We release this dataset on
-                            <a href="https://sandbox.zenodo.org/record/1219139" target="_blank" class="stretched-link text-danger" style="position: relative;">
-                                Sandbox Zenodo</a>. After downloading this dataset and placing it properly,
+                            <a href="https://doi.org/10.5281/zenodo.10530158" target="_blank" class="stretched-link text-danger" style="position: relative;">
+                                Zenodo</a>. After downloading this dataset and placing it properly,
                             you should be walked through all cases presented in this tutorial.
 
                         </div>
@@ -30,7 +30,7 @@
                         <div class="alert alert-secondary" role="alert">
                             If you would like to save the data file in the current folder, please put
                             <code>'./data.zip'</code> on <code>sv_fpn</code>.
-                            <a href="https://sandbox.zenodo.org/record/1219139/files/data.zip?download=1" target="_blank" class="stretched-link text-danger" style="position: relative;">
+                            <a href="https://zenodo.org/records/10530158/files/TMKit%20data.zip?download=1" target="_blank" class="stretched-link text-danger" style="position: relative;">
                                 The dataset URL</a>
                             to the data has been fixed. You can do it all as illustrated below.
                         </div>
@@ -43,7 +43,7 @@ tmk.fetch.tmkit_data(
 
 # if you still use tmkit version 0.0.2
 tmk.fetch.tmkit_data(
-    url='https://sandbox.zenodo.org/record/1219139/files/data.zip?download=1',
+    url='https://zenodo.org/records/10530158/files/TMKit%20data.zip?download=1',
     sv_fpn='./data.zip'
 )</code></pre>
 
